@@ -122,7 +122,7 @@ def _plot_top_tokens(
 
     # Set labels and title
     ax.set_xlabel("Frequency")
-    ax.set_title(title)
+    ax.set_title(f"Top {top_n} Keywords in ArXiv Abstract", fontweight="bold")
 
     # Adjust layout to prevent clipping of labels and title
     plt.tight_layout()
