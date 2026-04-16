@@ -10,6 +10,7 @@
 [![Check Links](https://github.com/kiruthikaa2512/nlp-06-nlp-pipeline/actions/workflows/links.yml/badge.svg?branch=main)](https://github.com/kiruthikaa2512/nlp-06-nlp-pipeline/actions/workflows/links.yml)
 
 > Structured EVTL pipeline for reliable extraction, cleaning, and NLP analysis of HTML web page data.
+> Custom EVTAL pipeline implementation using arXiv web data with personalized analysis outputs.
 > Adds spaCy-based text cleaning and derived NLP features to the Module 5 pipeline.
 
 Web Mining and Applied NLP require reliable acquisition and
@@ -33,8 +34,7 @@ and intermediate artifacts are preserved for verification.
 
 ## This Project
 
-This project demonstrates how to work with
-HTML data retrieved from web pages using a structured EVTL pipeline.
+This version includes custom analysis changes such as displaying the top 10 tokens and personalized output file naming.
 
 The workflow:
 
@@ -168,8 +168,8 @@ Pipeline executed successfully!
 The following artifacts will be created:
 
 - project.log - confirming successful run
-- data/raw/case_raw.html - dump of the fetched HTML
-- data/processed/case_processed.csv - final loaded result
+- data/raw/kiruthikaa_raw.html - dump of the fetched HTML
+- data/processed/kiruthikaa_processed.csv - final loaded result
 
 ## Command Reference
 
@@ -233,6 +233,8 @@ git push -u origin main
 - Use `CTRL+f` to find (and replace) text within a file.
 
 ## Example Artifact (Output)
+Note: The example output below reflects the original case pipeline.
+My custom project outputs use kiruthikaa-specific file names and updated analysis settings.
 
 ```text
 START PIPELINE
@@ -430,6 +432,5 @@ of the pipeline.
 
 -->
 
-![Bar Chart](./docs/images/case_top_tokens.png)
-
-![Word Cloud](./docs/images/case_wordcloud.png)
+![Bar Chart](./data/processed/kiruthikaa_top_tokens.png)
+![Word Cloud](./data/processed/kiruthikaa_wordcloud.png)
