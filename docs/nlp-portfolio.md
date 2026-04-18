@@ -136,6 +136,7 @@ When I tested the GPT-4 Technical Report, the pipeline extracted:
 - author count: `282`
 
 From Module 4, after my validation changes, the terminal confirmed that **100 API records were validated successfully**, and the transformed preview showed shape **(5, 8)** with added columns.
+
 I also connected the Module 4 API pipeline concepts to my real work environment, where structured EDI payloads are exchanged through APIs and require validation before use.
 
 One great lessons I learned was that if custom files are not linked correctly, the pipeline may still run the default files. I ran into that issue and had to debug imports and terminal sessions carefully, almost all the 3 weeks I had that issue and fixed them later.
