@@ -1,7 +1,7 @@
 # NLP Portfolio: Web Mining and Applied NLP
 
-**Author:** Kiruthikaa
-**Date:** April 2026
+**Author:** Kiruthikaa NS
+**Date:** 18th, April 2026
 
 ## Overview
 
